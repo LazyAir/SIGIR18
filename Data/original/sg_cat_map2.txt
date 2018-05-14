@@ -1,0 +1,202 @@
+54873:Mall:0
+12113:Train Station:1
+9467:Food & Drink Shop:2
+6589:Bus Station:3
+5518:Airport:4
+5209:Movie Theater:5
+4724:Coffee Shop:6
+4132:General College & University:7
+3789:Office:8
+3736:Hotel:9
+3252:Fast Food Restaurant:10
+3059:School:11
+2859:Cafe:12
+2746:Nightclub:13
+2719:College Academic Building:14
+2405:Spiritual Center:15
+2198:University:16
+2111:Medical Center:17
+2055:College Cafeteria:18
+1926:States & Municipalities:19
+1831:Chinese Restaurant:20
+1749:Gym / Fitness Center:21
+1677:General Entertainment:22
+1580:Government Building:23
+1544:Building:24
+1505:Convention Center:25
+1414:Furniture / Home Store:26
+1282:Indian Restaurant:27
+1149:Ramen / Noodle House:28
+1138:Trade School:29
+1136:Ice Cream Shop:30
+1102:Bar:31
+1039:Asian Restaurant:32
+1029:Park:33
+975:Restaurant:34
+920:Library:35
+819:Scenic Lookout:36
+817:Department Store:37
+720:Stadium:38
+711:Museum:39
+701:Japanese Restaurant:40
+692:Border Crossing:41
+691:Theme Park:42
+689:Light Rail:43
+687:Bridge:44
+683:Seafood Restaurant:45
+676:Tea Room:46
+665:American Restaurant:47
+647:Fried Chicken Joint:48
+644:Flea Market:49
+608:Dessert Shop:50
+601:College Library:51
+581:Event Space:52
+569:Clothing Store:53
+547:Bank:54
+534:Miscellaneous Shop:55
+533:Beach:56
+530:Thai Restaurant:57
+529:Concert Hall:58
+506:Burger Joint:59
+478:Dim Sum Restaurant:60
+477:Athletics & Sports:61
+470:Pub:62
+463:Italian Restaurant:63
+454:Pier:64
+425:Sushi Restaurant:65
+416:Breakfast Spot:66
+394:Residential Building (Apartment / Condo):67
+394:Housing Development:68
+391:Diner:69
+370:Australian Restaurant:70
+349:Pool:71
+329:Military Base:72
+329:Lounge:73
+320:Korean Restaurant:74
+316:Malaysian Restaurant:75
+306:Bubble Tea Shop:76
+269:Steakhouse:77
+269:College Rec Center:78
+264:Cocktail Bar:79
+263:Zoo:80
+260:Swiss Restaurant:81
+260:Historic Site:82
+255:Pizza Place:83
+251:Halal Restaurant:84
+242:Bakery:85
+240:Soup Place:86
+235:College Theater:87
+227:German Restaurant:88
+225:Gastropub:89
+214:River:90
+214:Karaoke Bar:91
+211:Sandwich Place:92
+203:College Auditorium:93
+186:Music Venue:94
+184:Performing Arts Venue:95
+184:Gas Station / Garage:96
+182:Market:97
+182:College Lab:98
+166:Art Gallery:99
+161:Electronics Store:100
+160:Massage Studio:101
+155:Design Studio:102
+151:Convenience Store:103
+148:Club House:104
+144:Casino:105
+136:Mexican Restaurant:106
+129:French Restaurant:107
+125:Beer Garden:108
+124:Indonesian Restaurant:109
+123:College Residence Hall:110
+115:Student Center:111
+115:Scandinavian Restaurant:112
+115:Harbor / Marina:113
+108:Botanical Garden:114
+106:Other Great Outdoors:115
+104:Wine Bar:116
+104:Pool Hall:117
+98:College Stadium:118
+95:Nature Preserve:119
+94:College Gym:120
+94:College Administrative Building:121
+92:Other Nightlife:122
+88:Lake:123
+88:Garden:124
+86:Middle Eastern Restaurant:125
+85:College Classroom:126
+81:Lighthouse:127
+80:Island:128
+79:Water Park:129
+79:Vegetarian / Vegan Restaurant:130
+78:Salad Place:131
+72:Wings Joint:132
+72:Salon / Barbershop:133
+71:Toy / Game Store:134
+69:Campground:135
+67:Farm:136
+66:Racetrack:137
+66:Portuguese Restaurant:138
+65:Brewery:139
+61:Cemetery:140
+60:Aquarium:141
+59:Bowling Alley:142
+53:Deli / Bodega:143
+50:College Quad:144
+44:Spanish Restaurant:145
+44:Dumpling Restaurant:146
+43:Gay Bar:147
+42:Community Center:148
+40:Vietnamese Restaurant:149
+40:BBQ Joint:150
+38:Frozen Yogurt:151
+36:Automotive Shop:152
+35:Candy Store:153
+34:Playground:154
+33:Hotpot Restaurant:155
+31:Gaming Cafe:156
+31:Arcade:157
+29:Bookstore:158
+28:Tapas Restaurant:159
+26:Eastern European Restaurant:160
+25:Mobile Phone Shop:161
+25:Creperie:162
+25:Arts & Crafts Store:163
+23:Winery:164
+23:Hardware Store:165
+23:Fishing Spot:166
+23:Car Dealership:167
+20:New American Restaurant:168
+20:Field:169
+18:Cosmetics Shop:170
+17:Nail Salon:171
+17:Flower Shop:172
+16:Argentinian Restaurant:173
+15:Community College:174
+15:Buffet:175
+15:Bistro:176
+14:Speakeasy:177
+14:Post Office:178
+14:Plaza:179
+14:Moving Target:180
+14:Food Truck:181
+13:Turkish Restaurant:182
+12:Funeral Home:183
+12:Dog Run:184
+11:Trail:185
+11:Antique Shop:186
+11:Animal Shelter:187
+10:Parking:188
+9:Ski Area:189
+9:Mountain:190
+9:Camera Store:191
+9:Bus Stop:192
+8:Law School:193
+8:Filipino Restaurant:194
+7:Radio Station:195
+6:Pet Store:196
+6:Mediterranean Restaurant:197
+6:Jewelry Store:198
+6:IT Services:199
+6:Drugstore / Pharmacy:200
+5:Motorcycle Shop:201

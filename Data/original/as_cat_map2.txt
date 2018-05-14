@@ -1,0 +1,252 @@
+17927:Coffee Shop:0
+14418:Food & Drink Shop:1
+14307:Bar:2
+14219:Mexican Restaurant:3
+10074:Hotel:4
+6963:Office:5
+5792:American Restaurant:6
+4128:Gym / Fitness Center:7
+3472:Park:8
+3019:Taco Place:9
+2763:Medical Center:10
+2304:Sports Bar:11
+2258:Residential Building (Apartment / Condo):12
+2081:Mall:13
+2039:Movie Theater:14
+2017:Dive Bar:15
+1958:Sandwich Place:16
+1760:Burger Joint:17
+1682:Pizza Place:18
+1666:States & Municipalities:19
+1652:Spiritual Center:20
+1626:Cafe:21
+1594:Ice Cream Shop:22
+1577:Government Building:23
+1463:BBQ Joint:24
+1446:Conference:25
+1428:Department Store:26
+1333:College Academic Building:27
+1286:Gay Bar:28
+1267:Building:29
+1263:School:30
+1263:Music Venue:31
+1189:Fast Food Restaurant:32
+1184:Beer Garden:33
+1087:Sushi Restaurant:34
+1079:Cocktail Bar:35
+1039:Thai Restaurant:36
+1014:Performing Arts Venue:37
+1008:Hardware Store:38
+1002:Vietnamese Restaurant:39
+992:Wine Bar:40
+987:Food Truck:41
+972:Athletics & Sports:42
+967:Salon / Barbershop:43
+955:Italian Restaurant:44
+954:Wings Joint:45
+954:Bridge:46
+933:Diner:47
+928:New American Restaurant:48
+913:Lounge:49
+911:French Restaurant:50
+909:Clothing Store:51
+904:Seafood Restaurant:52
+888:Brewery:53
+887:Bakery:54
+859:Drugstore / Pharmacy:55
+855:Museum:56
+853:Breakfast Spot:57
+831:Asian Restaurant:58
+816:College Stadium:59
+815:Hot Dog Joint:60
+788:Lake:61
+780:Miscellaneous Shop:62
+770:Japanese Restaurant:63
+768:Pub:64
+761:Automotive Shop:65
+753:Trail:66
+740:Street:67
+712:Burrito Place:68
+710:Community College:69
+708:Chinese Restaurant:70
+693:Restaurant:71
+662:Indian Restaurant:72
+650:Library:73
+630:Steakhouse:74
+617:Convenience Store:75
+603:University:76
+592:Karaoke Bar:77
+588:Lighthouse:78
+569:Thrift / Vintage Store:79
+561:Vegetarian / Vegan Restaurant:80
+550:Scenic Lookout:81
+540:Donut Shop:82
+537:Student Center:83
+537:Bank:84
+533:Nightclub:85
+527:Post Office:86
+522:Housing Development:87
+519:Dog Run:88
+512:Juice Bar:89
+506:Airport:90
+499:Gastropub:91
+497:Electronics Store:92
+485:Spa:93
+480:Bike Shop:94
+473:Convention Center:95
+471:Tea Room:96
+463:Korean Restaurant:97
+461:Pool:98
+452:Event Space:99
+444:Other Great Outdoors:100
+438:Gas Station / Garage:101
+436:Fried Chicken Joint:102
+427:Deli / Bodega:103
+416:College Administrative Building:104
+413:Playground:105
+384:Light Rail:106
+383:Brazilian Restaurant:107
+362:Used Bookstore:108
+359:Military Base:109
+357:Latin American Restaurant:110
+323:Furniture / Home Store:111
+320:General Entertainment:112
+303:Bookstore:113
+296:Intersection:114
+286:Bowling Alley:115
+285:Dessert Shop:116
+284:Snack Place:117
+267:General College & University:118
+260:Financial or Legal Service:119
+260:Bus Station:120
+256:Ramen / Noodle House:121
+248:Salad Place:122
+246:College Gym:123
+244:Cajun / Creole Restaurant:124
+243:Sporting Goods Shop:125
+237:Car Dealership:126
+234:Car Wash:127
+228:Frozen Yogurt:128
+214:Pool Hall:129
+209:Arts & Crafts Store:130
+203:Stadium:131
+199:Turkish Restaurant:132
+199:Pet Store:133
+193:Greek Restaurant:134
+187:Video Store:135
+183:Candy Store:136
+180:College Library:137
+173:Comedy Club:138
+169:College Cafeteria:139
+164:Art Gallery:140
+159:Cupcake Shop:141
+157:Music Store:142
+156:Hotel Bar:143
+149:Cosmetics Shop:144
+144:Mediterranean Restaurant:145
+141:Mobile Phone Shop:146
+139:Farm:147
+138:Toy / Game Store:148
+135:Tapas Restaurant:149
+133:Print Shop:150
+132:Antique Shop:151
+130:Flower Shop:152
+130:Bistro:153
+129:Middle Eastern Restaurant:154
+129:Concert Hall:155
+127:Smoke Shop:156
+127:Shipping Store:157
+126:Falafel Restaurant:158
+124:Public Art:159
+121:Field:160
+119:Trade School:161
+119:Harbor / Marina:162
+115:Law School:163
+114:Comic Shop:164
+112:Mini Golf:165
+108:Animal Shelter:166
+106:TV Station:167
+104:College Bookstore:168
+103:Credit Union:169
+102:Russian Restaurant:170
+98:College Auditorium:171
+96:Nail Salon:172
+95:Parking:173
+90:Garden:174
+82:Gift Shop:175
+82:Garden Center:176
+81:Strip Club:177
+81:General Travel:178
+78:Cemetery:179
+77:Gluten-free Restaurant:180
+75:Sculpture Garden:181
+75:Hookah Bar:182
+72:Botanical Garden:183
+64:Pet Service:184
+64:Paper / Office Supplies Store:185
+64:Non-Profit:186
+63:Nature Preserve:187
+60:Factory:188
+57:Irish Pub:189
+55:Real Estate Office:190
+54:Outdoor Sculpture:191
+53:Fraternity House:192
+51:Tattoo Parlor:193
+51:Laundry Service:194
+51:Bus Stop:195
+50:Fondue Restaurant:196
+48:Costume Shop:197
+48:Bagel Shop:198
+47:Laundromat:199
+46:Storage Facility:200
+46:Arcade:201
+44:Zoo:202
+44:Hobby Shop:203
+43:Jewelry Store:204
+41:Laser Tag:205
+40:Massage Studio:206
+39:Sake Bar:207
+39:Ethiopian Restaurant:208
+38:Record Shop:209
+37:Speakeasy:210
+36:Disc Golf:211
+35:Train Station:212
+35:Moving Target:213
+35:Buffet:214
+34:Gun Shop:215
+33:Cafeteria:216
+32:Racetrack:217
+31:Other Nightlife:218
+31:Distribution Center:219
+31:Design Studio:220
+28:Medical School:221
+28:College Residence Hall:222
+27:Motorcycle Shop:223
+27:Boat or Ferry:224
+26:Camera Store:225
+23:Other Event:226
+22:German Restaurant:227
+21:Historic Site:228
+21:Campground:229
+20:Music Festival:230
+19:Gun Range:231
+16:Optical Shop:232
+16:Distillery:233
+16:College Lab:234
+15:Beach:235
+14:Roller Rink:236
+14:Rental Car Location:237
+13:College Theater:238
+12:South American Restaurant:239
+12:Rest Area:240
+12:Funeral Home:241
+11:Soup Place:242
+11:Radio Station:243
+11:Photography Lab:244
+9:Tourist Information Center:245
+9:Board Shop:246
+8:Sorority House:247
+7:Assisted Living:248
+6:Video Game Store:249
+5:Southern / Soul Food Restaurant:250
+5:Recycling Facility:251
