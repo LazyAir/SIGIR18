@@ -2,6 +2,7 @@
 The datasets and code for the SIGIR18 paper
 
 Please contact the following author if you need further classification.
+
 Author:  Hongwei Liang
 Contact: hit.henryleung@gmail.com
 
