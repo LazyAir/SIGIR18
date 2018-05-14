@@ -86,4 +86,3 @@ The simple java code "FIBuilding.java" is for producing the FI index file "xx_in
 The code in this folder are for loading the built indices and other input data, retrieving the POI candidates and searching for the desired routes.  
 The provided Makefile helps you to compile the source code. See the comments in the source code files for more information.  
 A sample query is provided in the file "Sample Query.txt".
-
