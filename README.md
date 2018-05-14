@@ -1,4 +1,4 @@
-# SIGIR18
+# Datasets and Code of Our SIGIR18 Paper
 
 Please contact the following author if you need further classification.  
 Author:  Hongwei Liang  
