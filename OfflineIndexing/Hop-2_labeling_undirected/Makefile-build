@@ -1,0 +1,9 @@
+CMD = g++ -Wall -O3 -m64
+
+TARGET = buildIndex
+SOURCE = io_udu_r.h label_udu_r.cpp
+OBJ = $(TARGET).o
+$(TARGET):
+	$(CMD) $(LIBRA) $(SOURCE) -o $(TARGET)
+clean:
+	rm -f $(OBJ) $(TARGET)

@@ -1,0 +1,149 @@
+example.txt
+
+
+tBi 0.000255
+sort begin 8
+ok 0.000094 0.000004
+m edgePerMem time 8 477218588 0.017805
+8
+8
+8
+sort begin 8
+ok 0.000100 0.000001
+m edgePerMem time 8 477218588 0.000154
+n nn 6 6
+degree 0 1 2 0 1 1
+sortL begin 6
+ok 0.000089 0.000013
+m edgePerMem time 6 178956970 0.000305
+sort begin 6
+ok 0.000073 0.000000
+m edgePerMem time 6 477218588 0.000121
+nn m 6 8
+sort begin 8
+ok 0.000067 0.000001
+m edgePerMem time 8 477218588 0.000112
+sort begin 8
+ok 0.000065 0.000001
+m edgePerMem time 8 477218588 0.000109
+tRe 0.031481
+sort begin 3
+ok 0.000069 0.000000
+m edgePerMem time 3 477218588 0.000286
+tInit 0.000688
+
+
+iteration 1 begin
+newOut/In oldOut/In
+5 3 5 3 8
+MinMax example.txt.newout 1 1
+MinMax example.txt.newin 1 1
+1 1 0 0
+0 238609294, 0 0, 0 0
+5 238609291, 0 0, 0 0
+5 238609291, 0 0, 0 0
+1 1 0 0
+0 238609294, 0 0, 0 0
+3 238609290, 0 0, 0 0
+3 238609290, 0 0, 0 0
+tGen 0.000662
+PruneSmall can old scan 1 5 3
+0 477218587 0 0 0 0 (0)
+3 : 0 477218586(1) 0 0 0 0
+3 : 0 477218586(1) 0 0 0 0
+0 477218587 0 0 0 0 (1)
+tPrune 0.000238
+c1 c2 c3
+0 0 0
+PruneSmall can old scan 1 3 5
+0 477218587 0 0 0 0 (0)
+1 : 0 477218586(1) 0 0 0 0
+1 : 0 477218586(1) 0 0 0 0
+0 477218587 0 0 0 0 (0)
+tPrune 0.000551
+c1 c2 c3
+0 0 0
+tGenS tPruneS tPruneCPU tSortS tMergeS tTotal
+0.000662 0.000551 0.000002 0.018888 0.000000 0.001431
+tRead tWrite iCnt oCnt
+0.000154 0.000124 57 18
+largeDisk 2 0.000017 MB
+
+
+iteration 2 begin
+newOut/In oldOut/In
+1 1 6 4 10
+MinMax example.txt.newout 2 2
+MinMax example.txt.newin 2 2
+1 1 0 0
+0 238609294, 0 0, 0 0
+1 238609293, 0 0, 0 0
+1 238609293, 0 0, 0 0
+1 1 0 0
+0 238609294, 0 0, 0 0
+1 238609294, 0 0, 0 0
+1 238609294, 0 0, 0 0
+tGen 0.000566
+PruneSmall can old scan 0 6 4
+0 477218587 0 0 0 0 (0)
+tPrune 0.00018
+c1 c2 c3
+0 0 0
+PruneSmall can old scan 1 4 6
+0 477218586 0 0 0 0 (0)
+4 : 0 477218585(1) 0 0 0 0
+4 : 0 477218585(1) 0 0 0 0
+0 477218586 0 0 0 0 (3)
+tPrune 0.000486
+c1 c2 c3
+0 0 0
+tGenS tPruneS tPruneCPU tSortS tMergeS tTotal
+0.001228 0.001037 0.000004 0.018888 0.000000 0.002639
+tRead tWrite iCnt oCnt
+0.000197 0.000143 80 24
+largeDisk 2 0.000017 MB
+
+
+iteration 3 begin
+newOut/In oldOut/In
+0 1 6 5 11
+MinMax example.txt.newout 10000 -1
+MinMax example.txt.newin 3 3
+1 1 0 0
+0 238609294, 0 0, 0 0
+1 238609293, 0 0, 0 0
+1 238609293, 0 0, 0 0
+tGen 0.000524
+PruneSmall can old scan 5 6 5
+0 477218587 0 0 0 0 (0)
+tPrune 0.000193
+c1 c2 c3
+0 0 0
+PruneSmall can old scan 1 5 6
+0 477218586 0 0 0 0 (0)
+0 : 0 477218586(0) 0 0 0 0
+0 : 0 477218586(0) 0 0 0 0
+0 477218586 0 0 0 0 (0)
+tPrune 0.000477
+c1 c2 c3
+0 0 0
+tGenS tPruneS tPruneCPU tSortS tMergeS tTotal
+0.001752 0.001514 0.000005 0.018888 0.000000 0.003817
+tRead tWrite iCnt oCnt
+0.000238 0.000157 100 29
+largeDisk 6 0.000051 MB
+tGenS tPruneS tPruneCPU tSortS tMergeS tTotal
+0.001752 0.001514 0.000005 0.018888 0.000000 0.003824
+0.001752	0.001514	0.000005	0.018888	0.000000	0.003828
+largeDisk 6 0.000051 MB
+
+
+index begin
+sort begin 6
+ok 0.000067 0.000001
+m edgePerMem time 6 477218588 0.000114
+sortL begin 6
+ok 0.000068 0.000001
+m edgePerMem time 6 178956970 0.000114
+sumCnt indexSize 11 0.000247 MB
+tRun 0.005294

@@ -1,0 +1,3 @@
+./RouteSubmodular sg P 1039 629 0.5 1 420 2.50 0_0.4_2_0.3_10_0.3
+
+The parameters are: dataset search_method source_POI destination_POI diversity_parameter_alpha top_k budget_in_minutes feature_rating_threshod pairs_of_featureID_and_weight
