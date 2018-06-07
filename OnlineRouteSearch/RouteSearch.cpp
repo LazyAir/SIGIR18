@@ -21,7 +21,7 @@ unordered_map<intVector, SCNode, HashFunc > SNM; //the map for collapsed compact
 /**Functions Definitions*****************************************/
 TripSetFeature CompAggRating(TripSetFeature exTsf, int newPOI){ //Incrementally compute the Gain for a set of POIs
     // this function does not implement the optimization for simply sum, in which case maintaining the order is an unnecessary overhead
-	FDscSetMap exFsm = exTsf.fasm; //existing ordered sets of POI ratings for all features
+    FDscSetMap exFsm = exTsf.fasm; //existing ordered sets of POI ratings for all features
     unordered_map<int, decmtype> exFars = exTsf.ftrAggRatings;
     FDscSetMap newFsm;
     unordered_map<int, decmtype> newFars;
@@ -178,12 +178,12 @@ void PACER(vector<int> stack_tail, vector<int> used_nodes){  //The optimal PACER
                     CmpctNode cptn = map_it->second;
                     stateList presl = cptn.sl;
 					
-					/*******
-					   cost dominance pruning; find the feasible route having the least cost, addListItemFlag = true
-					*******/
+		    /*******
+			   cost dominance pruning; find the feasible route having the least cost, addListItemFlag = true
+		    *******/
                     for(auto slit = presl.begin(); slit != presl.end(); slit++){
                         search_space++;
-						int preLastID = (*slit).lastID;
+			int preLastID = (*slit).lastID;
                         wtype remainBgt = g_budget - (*slit).time;
                         if(remainBgt > cmptdPair[preLastID][newID]){
                             wtype visitCost = CompTransitCost(preLastID, newID, HI_Q_Pos[preLastID], HI_Q_Pos[newID])
@@ -212,7 +212,7 @@ void PACER(vector<int> stack_tail, vector<int> used_nodes){  //The optimal PACER
                            feature-based upper bound pruning; if promising, addSetFlag = true
                         *******/
 
-						if(topKqueue.size() == g_K){
+			if(topKqueue.size() == g_K){
                             wtype rmBgtAftrAdd = g_budget - listMinCost;
                             int newIdPos = TruncateHop2Label(HI_orig[newID], rmBgtAftrAdd);
 
@@ -228,7 +228,7 @@ void PACER(vector<int> stack_tail, vector<int> used_nodes){  //The optimal PACER
                                 candSet.erase(listBestPath[j]);
                             }
 
-							/**The following is for finding the online bound as in the Theorem 4 in the paper**/
+			    /**The following is for finding the online bound as in the Theorem 4 in the paper**/
                             priority_queue<margiRat> margiRatQueue;
                             TripSetFeature addOne;
                             decmtype new_marginal = 0;
