@@ -36,7 +36,7 @@ TripSetFeature CompAggRating(TripSetFeature exTsf, int newPOI){ //Incrementally 
         int k = g_kwds[j]; //get the real keyword k
 
         if(pFVec[k] >= g_val_thres){  //external global feature value threshold, i.e., theta
-			dss = exFsm[k];
+	    dss = exFsm[k];
             dss.insert(pFVec[k]);
             newFsm[k] = dss;
 
