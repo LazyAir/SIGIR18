@@ -20,7 +20,7 @@ Hongwei Liang and Ke Wang. 2018. Top-k Route Search through Submodularity Modeli
 ```
 Please cite this work if either the datasets or the code are used by your works.
 
-Datasets: they are in the folder "Data". The subfolder "raw_data" contains the original check-in data for two datasets and some files we generated based on the check-in data. The subfolder “input_data” contains the real files that will be read by the program.
+Datasets: They are in the folder "Data". The subfolder "raw_data" contains the original check-in data for two datasets and some files we generated based on the check-in data. The subfolder “input_data” contains the real files that will be read by the program.
 
 Code: The code in folder "OfflineIndexing" are for offline indices building; the code in folder "OnlineRouteSearch" (core part) are for loading the built indices and other input data, retrieving the POI candidates and searching for the desired routes. All the code are written in C++ (except the simple code for generating the inverted feature index) and are run on Ubuntu (Linux).
 
@@ -38,7 +38,7 @@ Yifeng Zeng, Xuefeng Chen, Xin Cao, Shengchao Qin, Marc Cavazza, and Yanping Xia
 Format (seperated by '\t'): user_ID	POI_ID	coordinates	checkin_time(hour:min)	checkin_date_id	city_name	categories(features)
 
 #### ii. "xx_coors.txt"
-The location information extracted from the above check-in datasets.  
+The location information is extracted from the above check-in datasets.  
 Format (seperated by '\t'): POI_ID	coordinates(latitude,longitude)
 
 #### iii. "xx_cat_map2.txt"  
@@ -86,3 +86,13 @@ The simple java code "FIBuilding.java" is for producing the FI index file "xx_in
 The code in this folder are for loading the built indices and other input data, retrieving the POI candidates and searching for the desired routes.  
 The provided Makefile helps you to compile the source code. See the comments in the source code files for more information.  
 A sample query is provided in the file "Sample Query.txt".
+
+## Building Tools
+C++ &
+Java
+
+## Platform
+Ubuntu (Linux)
+
+## License
+MIT License
