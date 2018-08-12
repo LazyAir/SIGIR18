@@ -11,20 +11,19 @@ Description: main file and output.
 int main(int argc, char* argv[]){
 	string if_nameHeader2Str(argv[1]); //dataset header, e.g., sg
 	string method(argv[2]); //search method: P (PACER), S (PACER-SC), or G (Greedy)
-    int s_id = atoi(argv[3]); //source POI
-    int e_id = atoi(argv[4]); //destination POI
-    decmtype pram = atof(argv[5]); // alpha for power law, e.g., 0.5
-    int k_val = atoi(argv[6]); //top-k value, e.g., 10
-    wtype budget = atoi(argv[7]); // the unit is minute, e.g., 360
-    decmtype val_thres = atof(argv[8]);  //e.g., 2.5
-    string ftrPrf(argv[9]); //preferred features and corresponding weights, e.g., 0_0.4_2_0.3_10_0.3 
-    string ftrPrf_copy = ftrPrf;
-    char *p;
-    p = strtok(&ftrPrf[0], "_");
-    vector<int> kwds; //e.g., {0, 2, 10}
-    vector<decmtype> kwd_vals; //e.g., {0.4, 0.3, 0.3}, has to be summing to 1
-
-    int i = 0;
+	int s_id = atoi(argv[3]); //source POI
+	int e_id = atoi(argv[4]); //destination POI
+	decmtype pram = atof(argv[5]); // alpha for power law, e.g., 0.5
+	int k_val = atoi(argv[6]); //top-k value, e.g., 10
+	wtype budget = atoi(argv[7]); // the unit is minute, e.g., 360
+	decmtype val_thres = atof(argv[8]);  //e.g., 2.5
+	string ftrPrf(argv[9]); //preferred features and corresponding weights, e.g., 0_0.4_2_0.3_10_0.3 
+	string ftrPrf_copy = ftrPrf;
+	char *p;
+	p = strtok(&ftrPrf[0], "_");
+	vector<int> kwds; //e.g., {0, 2, 10}vector<decmtype> kwd_vals; //e.g., {0.4, 0.3, 0.3}, has to be summing to 1
+	
+	int i = 0;
     while(p != NULL)
     {
         int kwd;  //do not need to assign a value
