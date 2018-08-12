@@ -9,8 +9,7 @@ Description: main file and output.
 
 /**************Main function*************/
 int main(int argc, char* argv[]){
-
-    string if_nameHeader2Str(argv[1]); //dataset header, e.g., sg
+	string if_nameHeader2Str(argv[1]); //dataset header, e.g., sg
 	string method(argv[2]); //search method: P (PACER), S (PACER-SC), or G (Greedy)
     int s_id = atoi(argv[3]); //source POI
     int e_id = atoi(argv[4]); //destination POI
