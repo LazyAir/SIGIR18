@@ -36,7 +36,7 @@ TripSetFeature CompAggRating(TripSetFeature exTsf, int newPOI){ //Incrementally 
         int k = g_kwds[j]; //get the real keyword k
 
         if(pFVec[k] >= g_val_thres){  //external global feature value threshold, i.e., theta
-	    dss = exFsm[k];
+	    	dss = exFsm[k];
             dss.insert(pFVec[k]);
             newFsm[k] = dss;
 
@@ -183,7 +183,7 @@ void PACER(vector<int> stack_tail, vector<int> used_nodes){  //The optimal PACER
 		    *******/
                     for(auto slit = presl.begin(); slit != presl.end(); slit++){
                         search_space++;
-			int preLastID = (*slit).lastID;
+						int preLastID = (*slit).lastID;
                         wtype remainBgt = g_budget - (*slit).time;
                         if(remainBgt > cmptdPair[preLastID][newID]){
                             wtype visitCost = CompTransitCost(preLastID, newID, HI_Q_Pos[preLastID], HI_Q_Pos[newID])
@@ -212,7 +212,7 @@ void PACER(vector<int> stack_tail, vector<int> used_nodes){  //The optimal PACER
                            feature-based upper bound pruning; if promising, addSetFlag = true
                         *******/
 
-			if(topKqueue.size() == g_K){
+						if(topKqueue.size() == g_K){
                             wtype rmBgtAftrAdd = g_budget - listMinCost;
                             int newIdPos = TruncateHop2Label(HI_orig[newID], rmBgtAftrAdd);
 
@@ -228,7 +228,7 @@ void PACER(vector<int> stack_tail, vector<int> used_nodes){  //The optimal PACER
                                 candSet.erase(listBestPath[j]);
                             }
 
-			    /**The following is for finding the online bound as in the Theorem 4 in the paper**/
+			    			/**The following is for finding the online bound as in the Theorem 4 in the paper**/
                             priority_queue<margiRat> margiRatQueue;
                             TripSetFeature addOne;
                             decmtype new_marginal = 0;
