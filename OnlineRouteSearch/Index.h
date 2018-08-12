@@ -46,8 +46,8 @@ struct FtrNodePair{
 	decmtype ftrVal; //feature value on this feature
 
 	FtrNodePair(int nid, decmtype val){
-	    nodeId = nid;
-	    ftrVal = val;
+		nodeId = nid;
+		ftrVal = val;
 	}
 };
 

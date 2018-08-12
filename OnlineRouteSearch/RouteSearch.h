@@ -33,9 +33,9 @@ using std::hash;
 /***Structure Definitions************************/
 
 struct state{  //the information of each record in C_L
-    vector<int> path; //route
-    wtype time; //used budget
-    int lastID; //ending poi
+	vector<int> path; //route
+	wtype time; //used budget
+	int lastID; //ending poi
 
 	state(vector<int> p, wtype t, int l) {
 		path = p;
@@ -51,86 +51,86 @@ typedef multiset<decmtype, std::greater<decmtype> > DscSet; //a (descending) ord
 typedef unordered_map<int, DscSet> FDscSetMap; // a map <key: feature id, value: the ordered set of feature ratings for this feature>
 
 struct TripSetFeature{
-    decmtype totalAggRating; //Gain of a compact state
-    unordered_map<int, decmtype> ftrAggRatings;  // phi_k for each feature k: <feature k, aggregated rating for k>
-    FDscSetMap fasm;  //intermediate ordered sets of POI ratings for all features, for the purpose of increment computation
+	decmtype totalAggRating; //Gain of a compact state
+	unordered_map<int, decmtype> ftrAggRatings;  // phi_k for each feature k: <feature k, aggregated rating for k>
+	FDscSetMap fasm;  //intermediate ordered sets of POI ratings for all features, for the purpose of increment computation
 
-    TripSetFeature(){
-    }
+	TripSetFeature(){
+	}
 
-    TripSetFeature(decmtype r, unordered_map<int, decmtype> ftr, FDscSetMap fm){
-        totalAggRating = r;
-        ftrAggRatings = ftr;
-        fasm = fm;
-    }
+	TripSetFeature(decmtype r, unordered_map<int, decmtype> ftr, FDscSetMap fm){
+		totalAggRating = r;
+		ftrAggRatings = ftr;
+		fasm = fm;
+	}
 
 };
 
 struct CmpctNode{  //compact node
-    TripSetFeature tsf;
-    stateList sl;
+	TripSetFeature tsf;
+	stateList sl;
 
-    CmpctNode(){
-    }
+	CmpctNode(){
+	}
 };
 
 
 struct SCNode{ //compact node with state collapse
-    TripSetFeature tsf;
-    vector<int> path;
-    wtype time;
-    int lastID;
+	TripSetFeature tsf;
+	vector<int> path;
+	wtype time;
+	int lastID;
 
-    SCNode(){
-    }
+	SCNode(){
+	}
 };
 
 
 //-- topTrips
 struct topTrips{
-    decmtype aggRating;
-    wtype cost;
-    vector<int> path;
-    unordered_map<int, decmtype> ftrAggRatings;
+	decmtype aggRating;
+	wtype cost;
+	vector<int> path;
+	unordered_map<int, decmtype> ftrAggRatings;
 
-    topTrips(decmtype r, wtype c, vector<int> p, unordered_map<int, decmtype> f){
-        aggRating = r;
-        cost = c;
-        path = p;
-        ftrAggRatings = f;
-    }
+	topTrips(decmtype r, wtype c, vector<int> p, unordered_map<int, decmtype> f){
+		aggRating = r;
+		cost = c;
+		path = p;
+		ftrAggRatings = f;
+	}
 };
 
 typedef std::vector<int> intVector;
 
 struct HashFunc{  //for hashing a set of POIs (intVector)
-    size_t operator()(const intVector &key) const{
+	size_t operator()(const intVector &key) const{
 
-        size_t seed = 0;
+		size_t seed = 0;
 
-        for(auto it = key.begin(); it != key.end(); ++it){
-            seed ^= hash<int>()(*it) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
-        }
+		for(auto it = key.begin(); it != key.end(); ++it){
+			seed ^= hash<int>()(*it) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
+		}
 
-        return seed;
-    }
+		return seed;
+	}
 };
 
 struct margiRat{ //for computing the upper bound of marginal gain
-    int id;
-    decmtype margiGain;
-    decmtype margiRatio;
+	int id;
+	decmtype margiGain;
+	decmtype margiRatio;
 
-    margiRat(int i, decmtype g, decmtype r){
-        id = i;
-        margiGain = g;
-        margiRatio = r;
-    }
+	margiRat(int i, decmtype g, decmtype r){
+		id = i;
+		margiGain = g;
+		margiRatio = r;
+	}
 
-    margiRat(){
-        margiGain = 0;
-        margiRatio = 0;
-    }
+	margiRat(){
+		margiGain = 0;
+		margiRatio = 0;
+	}
 };
 
 

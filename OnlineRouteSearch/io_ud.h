@@ -37,7 +37,7 @@ struct timer{
 	double getTime(){
 		gettimeofday(&etime, NULL);
 		return (double)etime.tv_sec-stime.tv_sec + 
-			((double)etime.tv_usec-stime.tv_usec)/1000000.0;
+		((double)etime.tv_usec-stime.tv_usec)/1000000.0;
 		
 	}
 };
@@ -47,7 +47,7 @@ struct edgeS{
 	wtype w;
 	bool operator < (const edgeS & edgeTmp) const{
 		return (x < edgeTmp.x) || (x == edgeTmp.x && abs(w) < abs(edgeTmp.w) ) ||
-				( x == edgeTmp.x && abs(w) == abs(edgeTmp.w) && w > edgeTmp.w);
+		( x == edgeTmp.x && abs(w) == abs(edgeTmp.w) && w > edgeTmp.w);
 	}
 }__attribute__((packed));
 
