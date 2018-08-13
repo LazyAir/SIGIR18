@@ -85,7 +85,14 @@ The simple java code "FIBuilding.java" is for producing the FI index file "xx_in
 ### (2) "OnlineRouteSearch" folder
 The code in this folder are for loading the built indices and other input data, retrieving the POI candidates and searching for the desired routes.  
 The provided Makefile helps you to compile the source code. See the comments in the source code files for more information.  
-A sample query is provided in the file "Sample Query.txt".
+
+A sample query is given as below:
+
+./RouteSubmodular sg P 1039 629 0.5 1 420 2.50 0_0.4_2_0.3_10_0.3
+
+The parameters are: dataset search_method source_POI destination_POI diversity_parameter_alpha top_k budget_in_minutes feature_rating_threshod pairs_of_featureID_and_weight
+
+After running the algorithm, the top-k routes and some statistics can be found in the output file in the same folder.
 
 ## Building Tools
 C++ &
